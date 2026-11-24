@@ -55,7 +55,7 @@ Each command has a twin in the REPL, such as `scat_kg.status()`.
 
 ## 4. Open it in Obsidian
 
-After cloning, open Obsidian, choose **Open folder as vault**, and pick the cloned folder (`my-vault`). The page templates for the four kinds of record are set up there.
+After cloning, open Obsidian, choose **Open folder as vault**, and pick the cloned folder (`my-vault`). Create pages with `scat stub`, not from the Obsidian page templates: a template takes its name from whatever you type, and a bad name fails the check. `scat stub` refuses a bad name and says why. The guides show how.
 
 ## What this is
 
@@ -65,4 +65,4 @@ The vault ships with a worked example: the elicitation of scat-kg itself. It is 
 
 ## Guides
 
-The guides for planning, facilitating and coding are on the docs site: <https://dynamicalsystemsgroup.github.io/scat-kg-tools/> (planned address; not live yet).
+The guides for planning, facilitating and coding are on the docs site: <https://dynamicalsystemsgroup.github.io/scat-kg-tools/>.
