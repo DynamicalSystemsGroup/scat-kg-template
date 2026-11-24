@@ -7,7 +7,6 @@
   "outgoing-link": true,
   "properties": true,
   "page-preview": true,
-  "templates": true,
   "command-palette": true,
   "outline": true
 }

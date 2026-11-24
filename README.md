@@ -55,7 +55,7 @@ Each command has a twin in the REPL, such as `scat_kg.status()`.
 
 ## 4. Open it in Obsidian
 
-After cloning, open Obsidian, choose **Open folder as vault**, and pick the cloned folder (`my-vault`). Create pages with `scat stub`, not from the Obsidian page templates: a template takes its name from whatever you type, and a bad name fails the check. `scat stub` refuses a bad name and says why. The guides show how.
+After cloning, open Obsidian, choose **Open folder as vault**, and pick the cloned folder (`my-vault`). Create pages with `scat stub`, which refuses a bad name and says why. The guides show how.
 
 ## What this is
 
