@@ -2,6 +2,7 @@
 type: scenario-raw
 status: done
 title: "False start and clean restart"
+timeframe: past
 description: "Notes on the false start, the halt, the rollback and the clean restart of this project."
 coded:
   - "[[false-start-and-clean-restart-coded]]"

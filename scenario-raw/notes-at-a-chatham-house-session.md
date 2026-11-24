@@ -2,6 +2,7 @@
 type: scenario-raw
 status: done
 title: "Notes at a Chatham House session"
+timeframe: mixed
 description: "Notes on how stories are told and noted when no individual may be identifiable, and the conflict that surfaced."
 coded:
   - "[[notes-at-a-chatham-house-session-coded]]"

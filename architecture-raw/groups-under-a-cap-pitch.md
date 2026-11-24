@@ -2,6 +2,7 @@
 type: architecture-raw
 status: done
 title: "Groups under a cap pitch"
+timeframe: future
 description: "The pitch that people enter the data as stakeholder groups, clustered to fit a cap set for each instance."
 coded:
   - "[[groups-under-a-cap-pitch-coded]]"
