@@ -1,0 +1,11 @@
+[project]
+name = "scat-kg-vault"
+version = "0.0.0"
+requires-python = ">=3.12"
+dependencies = ["scat-kg"]
+
+[tool.uv]
+package = false
+
+[tool.uv.sources]
+scat-kg = { git = "https://github.com/DynamicalSystemsGroup/scat-kg-tools", rev = "252c78ee207ff2bcf9a8ed82b26eebe9f18b815f" }
