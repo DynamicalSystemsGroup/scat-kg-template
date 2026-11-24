@@ -223,7 +223,7 @@ wheels = [
 [[package]]
 name = "scat-kg"
 version = "0.1.0"
-source = { git = "https://github.com/DynamicalSystemsGroup/scat-kg-tools?rev=a4ebb63c0e3bc01f265e4bb1f2a486505b57a380#a4ebb63c0e3bc01f265e4bb1f2a486505b57a380" }
+source = { git = "https://github.com/DynamicalSystemsGroup/scat-kg-tools?rev=126a6bea66b3989b324539f586bccdac615651b0#126a6bea66b3989b324539f586bccdac615651b0" }
 dependencies = [
     { name = "pydantic" },
     { name = "pyyaml" },
@@ -239,7 +239,7 @@ dependencies = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "scat-kg", git = "https://github.com/DynamicalSystemsGroup/scat-kg-tools?rev=a4ebb63c0e3bc01f265e4bb1f2a486505b57a380" }]
+requires-dist = [{ name = "scat-kg", git = "https://github.com/DynamicalSystemsGroup/scat-kg-tools?rev=126a6bea66b3989b324539f586bccdac615651b0" }]
 
 [[package]]
 name = "typing-extensions"
