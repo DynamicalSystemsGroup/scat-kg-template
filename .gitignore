@@ -4,3 +4,5 @@
 .obsidian/workspaces.json
 .obsidian/graph.json
 .venv/
+exports/
+executed/

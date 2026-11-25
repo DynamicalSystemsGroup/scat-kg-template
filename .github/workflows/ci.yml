@@ -13,6 +13,21 @@ jobs:
       - run: uv sync --locked
       - run: uv lock --check
       - run: uv run scat check
+      - name: Run the analysis notebook top to bottom
+        run: uv run jupyter nbconvert --to notebook --execute analysis.ipynb --output-dir "$RUNNER_TEMP/nb"
+      - name: Render the executed notebook as HTML
+        if: always()
+        run: |
+          if [ -f "$RUNNER_TEMP/nb/analysis.ipynb" ]; then
+            uv run jupyter nbconvert --to html "$RUNNER_TEMP/nb/analysis.ipynb" --output-dir "$RUNNER_TEMP/nb"
+          fi
+      - name: Upload the executed notebook and its HTML
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: analysis-executed
+          path: ${{ runner.temp }}/nb/
+          if-no-files-found: ignore
       - name: No AI attribution in commit messages
         run: |
           if git log --format=%B | grep -iE 'Co-Authored-By: *Claude|Generated with'; then

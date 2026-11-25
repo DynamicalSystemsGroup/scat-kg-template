@@ -2,10 +2,15 @@
 name = "scat-kg-vault"
 version = "0.0.0"
 requires-python = ">=3.12"
-dependencies = ["scat-kg"]
+dependencies = ["scat-kg[draw]"]
+
+[dependency-groups]
+# What `analysis.ipynb` needs: to open it (jupyterlab) and to run it headless (nbconvert).
+notebook = ["jupyterlab", "nbconvert", "nbclient", "ipykernel", "jupyter-core"]
 
 [tool.uv]
 package = false
+default-groups = ["notebook"]
 
 [tool.uv.sources]
-scat-kg = { git = "https://github.com/DynamicalSystemsGroup/scat-kg-tools", rev = "29438f4c5ccd4efb13d0e01bb315bbbf93c2bd3e" }
+scat-kg = { git = "https://github.com/DynamicalSystemsGroup/scat-kg-tools", rev = "992c4a048110f516c1f776d640ce11ef38355c7c" }
