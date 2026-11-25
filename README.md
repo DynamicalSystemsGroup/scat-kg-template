@@ -53,6 +53,10 @@ scat_kg.check()
 
 Each command has a twin in the REPL, such as `scat_kg.status()`.
 
+## See the whole picture
+
+`analysis.ipynb` shows the vault's views: each narrative's fingerprint, the edge tables, the layered view and traces. It writes nothing into your pages. Open it with `uv run jupyter lab analysis.ipynb` and choose **Run > Run All Cells**.
+
 ## 4. Open it in Obsidian
 
 After cloning, open Obsidian (version 1.9 or later, which the index pages need), choose **Open folder as vault**, and pick the cloned folder (`my-vault`). Create pages with `scat stub`, which refuses a bad name and says why. The guides show how.
