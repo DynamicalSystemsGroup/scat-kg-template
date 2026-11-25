@@ -8,4 +8,4 @@ dependencies = ["scat-kg"]
 package = false
 
 [tool.uv.sources]
-scat-kg = { git = "https://github.com/DynamicalSystemsGroup/scat-kg-tools", rev = "cf4ca7b9cd17bfbe80e25a7953b105942757d7bf" }
+scat-kg = { git = "https://github.com/DynamicalSystemsGroup/scat-kg-tools", rev = "29438f4c5ccd4efb13d0e01bb315bbbf93c2bd3e" }
