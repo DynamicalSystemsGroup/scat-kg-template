@@ -23,8 +23,8 @@ Facilitator's notes, as told. Source: the decision log, D-017 to D-022.
 
 ## Edges told
 
-| type | from | to | note |
+| from | type | to | note |
 |---|---|---|---|
-| holds | [[project-leads]] | [[intent-without-drift]] | The log gives these as the concerns of the false-start story, which it places with project leads (D-020). |
-| is addressed by | [[intent-without-drift]] | [[gated-approval]] | The log names a gated mission among the affordances of the false-start story (D-020). |
-| is addressed by | [[intent-without-drift]] | [[revert-with-history-kept]] | Halting before anything merges and reverting without losing history are both in D-020. |
+| [[project-leads]] | holds | [[intent-without-drift]] | The log gives these as the concerns of the false-start story, which it places with project leads (D-020). |
+| [[intent-without-drift]] | is addressed by | [[gated-approval]] | The log names a gated mission among the affordances of the false-start story (D-020). |
+| [[intent-without-drift]] | is addressed by | [[revert-with-history-kept]] | Halting before anything merges and reverting without losing history are both in D-020. |

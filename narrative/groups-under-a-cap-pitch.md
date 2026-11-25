@@ -16,7 +16,7 @@ Pitch notes, as given. Source: the decision log (D-020) and the mission.
 
 ## Edges told
 
-| type | from | to | note |
+| from | type | to | note |
 |---|---|---|---|
-| is addressed by | [[anonymity]] | [[groups-clustered-under-a-cap]] | Participants appear only as groups, so no group stands for one identifiable person. |
-| is provided by | [[groups-clustered-under-a-cap]] | [[cap-setting]] | The cap setting is what fixes the number of groups. The cap is a per-instance parameter (D-020); the example vault sets it to 3. |
+| [[anonymity]] | is addressed by | [[groups-clustered-under-a-cap]] | Participants appear only as groups, so no group stands for one identifiable person. |
+| [[groups-clustered-under-a-cap]] | is provided by | [[cap-setting]] | The cap setting is what fixes the number of groups. The cap is a per-instance parameter (D-020); the example vault sets it to 3. |

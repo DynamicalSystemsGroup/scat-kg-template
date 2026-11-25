@@ -21,9 +21,9 @@ Pitch notes, as given. Source: the decision log, D-001, D-004, D-017, D-020 and 
 
 ## Edges told
 
-| type | from | to | note |
+| from | type | to | note |
 |---|---|---|---|
-| is addressed by | [[intent-without-drift]] | [[gated-approval]] | A gate before approval keeps the work tied to the intent that was approved. |
-| is addressed by | [[intent-without-drift]] | [[revert-with-history-kept]] | Rolling back to the approved state removes drift, and the history stays. |
-| is provided by | [[gated-approval]] | [[main-and-dev-branches]] | The approval gate is provided by the main and dev branches. Dev integrates, main holds approved missions and releases only, and a merge into main is the approval (D-001, D-004). |
-| is provided by | [[revert-with-history-kept]] | [[archive-tags]] | The archive tags keep what a rollback sets aside. Abandoned work is tagged under archive/ first (D-022), so findings stay available without seeding the restart (D-020). |
+| [[intent-without-drift]] | is addressed by | [[gated-approval]] | A gate before approval keeps the work tied to the intent that was approved. |
+| [[intent-without-drift]] | is addressed by | [[revert-with-history-kept]] | Rolling back to the approved state removes drift, and the history stays. |
+| [[gated-approval]] | is provided by | [[main-and-dev-branches]] | The approval gate is provided by the main and dev branches. Dev integrates, main holds approved missions and releases only, and a merge into main is the approval (D-001, D-004). |
+| [[revert-with-history-kept]] | is provided by | [[archive-tags]] | The archive tags keep what a rollback sets aside. Abandoned work is tagged under archive/ first (D-022), so findings stay available without seeding the restart (D-020). |

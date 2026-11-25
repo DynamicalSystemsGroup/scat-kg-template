@@ -17,7 +17,7 @@ Facilitator's notes, as told. Source: the decision log, D-010, D-017 and D-020, 
 
 ## Edges told
 
-| type | from | to | note |
+| from | type | to | note |
 |---|---|---|---|
-| holds | [[facilitator-analysts]] | [[anonymity]] | They take the field notes under the Chatham House rule, so no individual is identifiable (D-010). |
-| is addressed by | [[anonymity]] | [[groups-clustered-under-a-cap]] | The mission says the people in the data are groups under the Chatham House rule, so no individual is identifiable. |
+| [[facilitator-analysts]] | holds | [[anonymity]] | They take the field notes under the Chatham House rule, so no individual is identifiable (D-010). |
+| [[anonymity]] | is addressed by | [[groups-clustered-under-a-cap]] | The mission says the people in the data are groups under the Chatham House rule, so no individual is identifiable. |
