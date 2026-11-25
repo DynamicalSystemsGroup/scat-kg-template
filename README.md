@@ -42,7 +42,7 @@ Check the vault:
 uv run scat check
 ```
 
-It prints what it found, in plain words. Run it again after every change. Other commands (`scat status`, `scat index`, `scat stub`) are in the guides.
+It prints what it found, in plain words. Run it again after every change. Other commands (`scat status`, `scat index`, `scat stub`, `scat record-edge`, `scat set-status`) are in the guides.
 
 Prefer working interactively? The same check runs in the Python REPL. Start it with `uv run python`, then type these two lines:
 
@@ -55,13 +55,17 @@ Each command has a twin in the REPL, such as `scat_kg.status()`.
 
 ## 4. Open it in Obsidian
 
-After cloning, open Obsidian, choose **Open folder as vault**, and pick the cloned folder (`my-vault`). Create pages with `scat stub`, which refuses a bad name and says why. The guides show how.
+After cloning, open Obsidian (version 1.9 or later, which the index pages need), choose **Open folder as vault**, and pick the cloned folder (`my-vault`). Create pages with `scat stub`, which refuses a bad name and says why. The guides show how.
 
 ## What this is
 
-A template for turning facilitated discussions into a knowledge graph. It is an [Obsidian](https://obsidian.md) vault kept in git. Each page records one thing the group said, in four kinds: **S**takeholders, **C**oncerns, **A**ffordances and **T**echnologies (SCAT). Small `scat` tools check the pages as you go.
+A template for turning facilitated discussions into a knowledge graph. It is an [Obsidian](https://obsidian.md) vault kept in git. A **node** is one page, in one of four layers: **S**takeholder groups (a `group` page), **C**oncerns, **A**ffordances and **T**echnologies (SCAT). A **narrative** is one page too: an account with a link wherever it names a node, and a table headed `Edges told` with one row for each edge the account tells: its type (`holds`, `is addressed by` or `is provided by`), the node it comes from, the node it goes to, and a note. An edge is a row, never a page. The tool builds the knowledge graph from the pages on every call, and the small `scat` tools check them as you go.
 
-The vault ships with a worked example: the elicitation of scat-kg itself. It is only there to show you the shape. Delete it or overwrite it with your own. Its stakeholders are groups named by role, in the Chatham House style, so no individual is identifiable. Do the same in yours.
+Each type has an **index page**, a Base in `index/` that lists its pages and stays current by itself. Obsidian's table editor re-pads a table when you click into it. That is harmless: the tool reads the table whatever its spacing.
+
+A remark between two entries of one type, such as two concerns that pull against each other, is a plain line in the body of one of them with a link to the other. The tool gives it no meaning.
+
+The vault ships with a worked example: the elicitation of scat-kg itself, coded as two scenarios and two architectures. It is only there to show you the shape. Delete it or overwrite it with your own. Its groups are named by role, in the Chatham House style, so no individual is identifiable. Do the same in yours.
 
 ## Guides
 

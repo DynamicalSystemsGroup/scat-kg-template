@@ -8,5 +8,6 @@
   "properties": true,
   "page-preview": true,
   "command-palette": true,
-  "outline": true
+  "outline": true,
+  "bases": true
 }
