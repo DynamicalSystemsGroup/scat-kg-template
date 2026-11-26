@@ -12,7 +12,7 @@ Facilitator's notes, as told. Source: the decision log, D-010, D-017 and D-020, 
 - [[workshop-participants|Workshop participants]] tell stories in conversations. The work is sized for manual note-taking in Obsidian.
 - [[facilitator-analysts|Facilitators]] take the field notes. The setting is Chatham House rule: the people in the data are groups, so [[anonymity|no individual is identifiable]].
 - The vault holds groups, and [[groups-clustered-under-a-cap|an instance setting caps their number]].
-- Field notes carry no [[attribution]]. A project that needs it would extend the tool.
+- This vault runs in the disallowed attribution mode: the notes name groups, never individuals, and no note links to a person. A project that needs names chooses another mode when it sets up.
 - [[attribution|Attribution]] and [[anonymity]] conflict as concerns, and the vault records that as a remark on one of them.
 
 ## Edges told

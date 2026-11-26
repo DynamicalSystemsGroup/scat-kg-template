@@ -71,6 +71,8 @@ A remark between two entries of one type, such as two concerns that pull against
 
 The vault ships with a worked example: the elicitation of scat-kg itself, coded as two scenarios and two architectures. It is only there to show you the shape. Delete it or overwrite it with your own. Its groups are named by role, in the Chatham House style, so no individual is identifiable. Do the same in yours.
 
+The vault runs in the `disallowed` attribution mode, set in `scat.toml`: notes name groups, never individuals. The planning guide explains how to choose another.
+
 ## Guides
 
 The guides for planning, facilitating and coding are on the docs site: <https://dynamicalsystemsgroup.github.io/scat-kg-tools/>.
