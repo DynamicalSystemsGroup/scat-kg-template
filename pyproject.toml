@@ -13,4 +13,4 @@ package = false
 default-groups = ["notebook"]
 
 [tool.uv.sources]
-scat-kg = { git = "https://github.com/DynamicalSystemsGroup/scat-kg-tools", rev = "fd0a39e0100c220015524c01a6804eff17b81167" }
+scat-kg = { git = "https://github.com/DynamicalSystemsGroup/scat-kg-tools", rev = "bc66409d00bdd9b8972181b9048def4fef04337c" }
