@@ -6,3 +6,4 @@
 .venv/
 exports/
 executed/
+.obsidian/appearance.json
