@@ -7,7 +7,7 @@ description: "Notes on the false start, the halt, the rollback and the clean res
 timeframe: past
 ---
 
-Facilitator's notes, as told. Source: the decision log, D-017 to D-022.
+Facilitator's notes, as told.
 
 - Mission approved. First work packages (the ontology research and the toolchain spike) under way.
 - The [[project-leads|project leads]] shared a stakeholder conversation as intent information. The new intent: the second kind in the model fits better as affordances than as properties. The acronym becomes SCAT, which the leads accepted.
@@ -25,6 +25,6 @@ Facilitator's notes, as told. Source: the decision log, D-017 to D-022.
 
 | from | type | to | note |
 |---|---|---|---|
-| [[project-leads]] | holds | [[intent-without-drift]] | The log gives these as the concerns of the false-start story, which it places with project leads (D-020). |
-| [[intent-without-drift]] | is addressed by | [[gated-approval]] | The log names a gated mission among the affordances of the false-start story (D-020). |
-| [[intent-without-drift]] | is addressed by | [[revert-with-history-kept]] | Halting before anything merges and reverting without losing history are both in D-020. |
+| [[project-leads]] | holds | [[intent-without-drift]] | The project leads hold these as the concerns of the false-start story. |
+| [[intent-without-drift]] | is addressed by | [[gated-approval]] | A gated mission is one of the affordances in the false-start story. |
+| [[intent-without-drift]] | is addressed by | [[revert-with-history-kept]] | Halting before anything merges and reverting without losing history are both told as affordances of the story. |

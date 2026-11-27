@@ -7,7 +7,7 @@ description: "The pitch that two branches and archive tags give approved work, a
 timeframe: future
 ---
 
-Pitch notes, as given. Source: the decision log, D-001, D-004, D-017, D-020 and D-022.
+Pitch notes, as given.
 
 - One branch, [[main-and-dev-branches|main]], holds approved missions and releases only. A second, dev, integrates the work. Work happens on short-lived branches off dev.
 - [[gated-approval|Approval is a merge into main]]. A mission is approved when the [[project-leads|project leads]] merge it.
@@ -25,5 +25,5 @@ Pitch notes, as given. Source: the decision log, D-001, D-004, D-017, D-020 and 
 |---|---|---|---|
 | [[intent-without-drift]] | is addressed by | [[gated-approval]] | A gate before approval keeps the work tied to the intent that was approved. |
 | [[intent-without-drift]] | is addressed by | [[revert-with-history-kept]] | Rolling back to the approved state removes drift, and the history stays. |
-| [[gated-approval]] | is provided by | [[main-and-dev-branches]] | The approval gate is provided by the main and dev branches. Dev integrates, main holds approved missions and releases only, and a merge into main is the approval (D-001, D-004). |
-| [[revert-with-history-kept]] | is provided by | [[archive-tags]] | The archive tags keep what a rollback sets aside. Abandoned work is tagged under archive/ first (D-022), so findings stay available without seeding the restart (D-020). |
+| [[gated-approval]] | is provided by | [[main-and-dev-branches]] | The approval gate is provided by the main and dev branches. Dev integrates, main holds approved missions and releases only, and a merge into main is the approval. |
+| [[revert-with-history-kept]] | is provided by | [[archive-tags]] | The archive tags keep what a rollback sets aside. Abandoned work is tagged under archive/ first, so findings stay available without seeding the restart. |

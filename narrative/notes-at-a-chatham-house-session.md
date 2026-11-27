@@ -7,7 +7,7 @@ description: "Notes on how stories are told and noted when no individual may be 
 timeframe: mixed
 ---
 
-Facilitator's notes, as told. Source: the decision log, D-010, D-017 and D-020, and the mission.
+Facilitator's notes, as told. Source: the mission.
 
 - [[workshop-participants|Workshop participants]] tell stories in conversations. The work is sized for manual note-taking in Obsidian.
 - [[facilitator-analysts|Facilitators]] take the field notes. The setting is Chatham House rule: the people in the data are groups, so [[anonymity|no individual is identifiable]].
@@ -19,5 +19,5 @@ Facilitator's notes, as told. Source: the decision log, D-010, D-017 and D-020, 
 
 | from | type | to | note |
 |---|---|---|---|
-| [[facilitator-analysts]] | holds | [[anonymity]] | They take the field notes under the Chatham House rule, so no individual is identifiable (D-010). |
+| [[facilitator-analysts]] | holds | [[anonymity]] | They take the field notes under the Chatham House rule, so no individual is identifiable. |
 | [[anonymity]] | is addressed by | [[groups-clustered-under-a-cap]] | The mission says the people in the data are groups under the Chatham House rule, so no individual is identifiable. |
