@@ -2,7 +2,7 @@
 
 This folder is a SCAT vault: pages in git, checked by the `scat` tool. Before you do anything else, read
 `.claude/skills/scat-ide-setup/SKILL.md` and follow it. It sets out how to start (`uv sync`, `uv run scat check`),
-what you may run, and what you must never do.
+what you may run, and what you must never do. Its "Stage" section says how to find the project's stage and keep to it.
 
 Three actors work here:
 
