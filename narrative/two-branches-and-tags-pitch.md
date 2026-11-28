@@ -10,14 +10,10 @@ timeframe: future
 Pitch notes, as given.
 
 - One branch, [[main-and-dev-branches|main]], holds approved missions and releases only. A second, dev, integrates the work. Work happens on short-lived branches off dev.
-- [[gated-approval|Approval is a merge into main]]. A mission is approved when the [[project-leads|project leads]] merge it.
+- [[gated-approval|Approval is a merge into main]]. A mission is approved when the project leads merge it.
 - When work must be undone, [[revert-with-history-kept|dev is reverted to the approved state. History is kept]], no force-push.
 - Abandoned work is [[archive-tags|tagged under archive/]] before it goes. The tags keep the findings available without seeding the restart.
 - Branch tidy-up is periodic and advisory.
-
-## Linked beyond the text
-
-- [[intent-without-drift]]
 
 ## Edges told
 
