@@ -2140,7 +2140,7 @@ wheels = [
 [[package]]
 name = "scat-kg"
 version = "0.1.0"
-source = { git = "https://github.com/DynamicalSystemsGroup/scat-kg-tools?rev=20c03c24763d557fe42a100a89b9d890a2b7c354#20c03c24763d557fe42a100a89b9d890a2b7c354" }
+source = { git = "https://github.com/DynamicalSystemsGroup/scat-kg-tools?rev=8952b317889edc66b955421a0ea35392ab93799a#8952b317889edc66b955421a0ea35392ab93799a" }
 dependencies = [
     { name = "pydantic" },
     { name = "pyyaml" },
@@ -2171,7 +2171,7 @@ notebook = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "scat-kg", extras = ["draw"], git = "https://github.com/DynamicalSystemsGroup/scat-kg-tools?rev=20c03c24763d557fe42a100a89b9d890a2b7c354" }]
+requires-dist = [{ name = "scat-kg", extras = ["draw"], git = "https://github.com/DynamicalSystemsGroup/scat-kg-tools?rev=8952b317889edc66b955421a0ea35392ab93799a" }]
 
 [package.metadata.requires-dev]
 notebook = [
