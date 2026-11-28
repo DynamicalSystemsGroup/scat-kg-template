@@ -25,6 +25,14 @@ Read-only, no asking: `uv run scat check`, `status`, `fingerprint [NARRATIVE]`, 
 
 State what you did as the tool's results (A13). On `refused`, quote it to the coder and stop that step.
 
+## Stage
+
+The project is in one stage at a time: plan, capture, code, analyse or report. A stage is not a page's status. Here the stage is advisory: no server refuses a call, so keeping to it is yours.
+
+1. Ask the coder which stage the project is in. If `lifecycle.toml` exists at the vault root, read its `stage` and say it back to the coder. The file needs one line, `stage = "code"`; `set_by` and `set_at` are optional.
+2. Run `uv run scat guide <stage>` and read it. Offer only that stage's work and tools. `uv run scat guide` gives all five stages and the moves between them.
+3. A move to another stage is the coder's say-so. Where `lifecycle.toml` exists, the coder edits it (or runs the server's `set_stage`, if they have one). Never decide a move, and never edit `lifecycle.toml` yourself.
+
 ## Hard rules (A7 to A15)
 
 - Never set a narrative to `done` or move one out of `done` (A7). Never run `uv run scat set-status` at all, and never edit `status:`. The coder sets status.
