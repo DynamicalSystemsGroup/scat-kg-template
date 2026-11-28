@@ -13,4 +13,4 @@ package = false
 default-groups = ["notebook"]
 
 [tool.uv.sources]
-scat-tools = { git = "https://github.com/DynamicalSystemsGroup/scat-tools", rev = "abc349f1a7eced52d8e0586811dc14eff1557b2c" }
+scat-tools = { git = "https://github.com/DynamicalSystemsGroup/scat-tools", rev = "087e7330294d44dce3e2abb800fd8e08de586298" }
