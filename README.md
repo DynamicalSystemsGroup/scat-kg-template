@@ -1,4 +1,4 @@
-# scat-kg-template
+# scat-template
 
 **Start here: step 1.** Type every command below in Terminal.
 
@@ -9,7 +9,7 @@ Your discussions are your data, so make your repository **private**. Pick one pa
 **With the GitHub CLI.** You need `gh` and a one-time `gh auth login`. No `gh`? Use the website path below.
 
 ```
-gh repo create my-vault --template DynamicalSystemsGroup/scat-kg-template --private --clone
+gh repo create my-vault --template DynamicalSystemsGroup/scat-template --private --clone
 cd my-vault
 ```
 
@@ -47,11 +47,11 @@ It prints what it found, in plain words. Run it again after every change. Other 
 Prefer working interactively? The same check runs in the Python REPL. Start it with `uv run python`, then type these two lines:
 
 ```
-import scat_kg
-scat_kg.check()
+import scat_tools
+scat_tools.check()
 ```
 
-Each command has a twin in the REPL, such as `scat_kg.status()`.
+Each command has a twin in the REPL, such as `scat_tools.status()`.
 
 ## See the whole picture
 
@@ -69,10 +69,10 @@ Each type has an **index page**, a Base in `index/` that lists its pages and sta
 
 A remark between two entries of one type, such as two concerns that pull against each other, is a plain line in the body of one of them with a link to the other. The tool gives it no meaning.
 
-The vault ships with a worked example: the elicitation of scat-kg itself, coded as two scenarios and two architectures. It is only there to show you the shape. Delete it or overwrite it with your own. Its groups are named by role, in the Chatham House style, so no individual is identifiable. Do the same in yours.
+The vault ships with a worked example: the elicitation of scat-tools itself, coded as two scenarios and two architectures. It is only there to show you the shape. Delete it or overwrite it with your own. Its groups are named by role, in the Chatham House style, so no individual is identifiable. Do the same in yours.
 
 The vault runs in the `disallowed` attribution mode, set in `scat.toml`: notes name groups, never individuals. The planning guide explains how to choose another.
 
 ## Guides
 
-The guides for planning, facilitating and coding are on the docs site: <https://dynamicalsystemsgroup.github.io/scat-kg-tools/>.
+The guides for planning, facilitating and coding are on the docs site: <https://dynamicalsystemsgroup.github.io/scat-tools/>.

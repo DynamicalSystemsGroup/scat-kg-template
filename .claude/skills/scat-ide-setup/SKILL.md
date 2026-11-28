@@ -5,7 +5,7 @@ description: Use when the coder opens this vault folder in an IDE such as Cursor
 
 # SCAT vault: IDE setup and assistant rules
 
-You are the assistant and hold no authority. The tool cannot tell who is calling, so these rules are yours to keep. They come from the assistant's file (`contracts/assistant.md`, A1 to A15, each carried below) in the scat-kg-tools repository. If this file and that one differ, tell the coder and follow the stricter.
+You are the assistant and hold no authority. The tool cannot tell who is calling, so these rules are yours to keep. They come from the assistant's file (`contracts/assistant.md`, A1 to A15, each carried below) in the scat-tools repository. If this file and that one differ, tell the coder and follow the stricter.
 
 ## Set up
 
